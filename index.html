@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spongebob Homez</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Spongebob</a>
+  <a href="#" class="w3-bar-item w3-button">Patrick</a>
+  <a href="#" class="w3-bar-item w3-button">Squidward</a>
+  <a href="#" class="w3-bar-item w3-button">Fred</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-light-blue"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="work.html" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-blue">Work</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-blue">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+   
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="images/12.png" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>Bikini Bottom Estates</h2>
+<p>Meet the team - our office fish:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="images/spongerboob3.webp" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Spongebob Squarepants</h3>
+  <p>The man, the myth, the legend - our Boss</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/patrock.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Patrick Star</h3>
+  <p>Our very own award winning real estate agent himself!</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/suiqdward2.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Squidward Tenticles</h3>
+  <p>VP to the boss, yet still as hard a worker as can be</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="images/my leg.webp" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>'My Leg'</h3>
+  <p>Fred may look dumb, but boy will he surprise you with his selling skills</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Here at Bikini Bottom Estates, we push to sell each of our homes to the right fish, no matter what that home is. Wheter you need it near Goo Lagoon or Bikini Bottom's most popular resturants, the Krusty Krab and the Chum Bucket, our team will find the perfect house for you. We're not your typical Real Estate Agency, after all, we sell homes to fish. Take a look at some of our clients reviews.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="images/try 7.png" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h3>Pearl Krabs</h3>
+  <h4>Grandma Shop Worker</h4>
+  <p>New to owning a house, Pearl Krabs needed to find the perfect home for her, but had difficulty doing so. </p>
+  <p>With our skills, our agents were able to find the perfect dream house for Pearl, that was below her price range and was the ideal look as well.</p>
+  <p>"I've been so excited to buy a house for so long. My dad is cheap, so this house is perfect and I love it so much! I have room for all the things I want too." - Pearl Krabs</p>
+  <p>"Aye, it was indeed difficult to find the right house for my Pearl. Yet, somehow, Patrick was able to find a great one. It's perfect, and I don't have to spend much money!" - Eugene Krabs</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="images/try 6.png" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Shelly Fishbowl</h3>
+  <h4>Fish Mom at Home to Tyler</h4>
+  <p>With her son and husband, Shelly needed a new home that woud fit their family of three, but also had a large sandyard for her son, Tyler, to play in.</p>
+  <p>With help from Squidward Tenticles and 'My Leg' Guy, shelly was able to find a great home that was near the elementary Fish School, and also had everything they wanted.</p>
+  <p>"This is a great home! It's perfect for my little Tyler, as it is also close to some of our favorite places, like the Krusty Krab. I love it!" - Shelly Fishbowl</p>
+  <p>"I like the house, I guess. I like my room, it's pretty big. I also like that we're near the Krusty Krab." - Tyler Fishbowl</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="images/house 2.webp" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Bubble Bass</h3>
+  <h4>Bubble Books Employee</h4>
+  <p>With his claimed 'dislike' towards pickles, Bubble Bass wanted a house that showed his love for food, especially those with spice.</p>
+  <p>With agents Patrick and Fred's help, Bubble Bass was able to miraculously find a great home that fit what he was looking for. </p>
+  <p>"It's my price range, AND it is my dream house. I don't think I'll ever be leaving." - Bubble Bass</p>
+  <p>"My son truly worked really hard to find his dream house. I could not be prouder and happy for him." - Mama Bass</p>
+  </div>
+  </div>
+</div>
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:sticky">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">Leave a review</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PAYMENT</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Agents Spongebob and Patrick</p>
+        </li>
+        <li class="w3-padding-16"><b>Support whenever and wherever you need</b> </li>
+        <li class="w3-padding-16"><b>Can meet wherever you desire to</b> </li>
+        <li class="w3-padding-16"><b>Charge for little</b> </li>
+        <li class="w3-padding-16"><b>Can get you an open house in just three days of the requested time</b> </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 150</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Contact</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Agent 'My Leg' aka Fred</p>
+        </li>
+        <li class="w3-padding-16"><b>Can be with you whenever on weekends</b> </li>
+        <li class="w3-padding-16"><b>Travels for out of town estates as well</b> </li>
+        <li class="w3-padding-16"><b>Charges for a bit more</b> </li>
+        <li class="w3-padding-16"><b>Can get you an open house in just five days of requested time</b> </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 250 </h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Contact</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Agent Squidward Tenticles</p>
+        </li>
+        <li class="w3-padding-16"><b>Can be whenever his scheudle pleases</b></li>
+        <li class="w3-padding-16"><b>Travels where ever you need to</b> </li>
+        <li class="w3-padding-16"><b>Charges every expensive</b> </li>
+        <li class="w3-padding-16"><b>Can get you an open house in any point of requested time, no matter location</b> </li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 500</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Contact</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/home" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.google.com/" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/?hl=en" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
